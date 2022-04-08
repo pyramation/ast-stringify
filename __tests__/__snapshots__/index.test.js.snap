@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+Object {
+  "comments": Array [],
+  "errors": Array [],
+  "program": Object {
+    "body": Array [
+      Object {
+        "declaration": Object {
+          "declarations": Array [
+            Object {
+              "id": Object {
+                "name": "messages",
+                "type": "Identifier",
+              },
+              "init": Object {
+                "properties": Array [
+                  Object {
+                    "async": false,
+                    "body": Object {
+                      "body": Array [
+                        Object {
+                          "argument": Object {
+                            "properties": Array [
+                              Object {
+                                "computed": false,
+                                "key": Object {
+                                  "name": "typeUrl",
+                                  "type": "Identifier",
+                                },
+                                "method": false,
+                                "shorthand": false,
+                                "type": "ObjectProperty",
+                                "value": Object {
+                                  "extra": Object {
+                                    "raw": "'/osmosis.gamm.v1beta1.MsgJoinPool'",
+                                    "rawValue": "/osmosis.gamm.v1beta1.MsgJoinPool",
+                                  },
+                                  "type": "StringLiteral",
+                                  "value": "/osmosis.gamm.v1beta1.MsgJoinPool",
+                                },
+                              },
+                              Object {
+                                "computed": false,
+                                "key": Object {
+                                  "name": "value",
+                                  "type": "Identifier",
+                                },
+                                "method": false,
+                                "shorthand": false,
+                                "type": "ObjectProperty",
+                                "value": Object {
+                                  "arguments": Array [],
+                                  "callee": Object {
+                                    "computed": false,
+                                    "object": Object {
+                                      "arguments": Array [
+                                        Object {
+                                          "name": "value",
+                                          "type": "Identifier",
+                                        },
+                                      ],
+                                      "callee": Object {
+                                        "computed": false,
+                                        "object": Object {
+                                          "name": "MsgJoinPool",
+                                          "type": "Identifier",
+                                        },
+                                        "property": Object {
+                                          "name": "encode",
+                                          "type": "Identifier",
+                                        },
+                                        "type": "MemberExpression",
+                                      },
+                                      "type": "CallExpression",
+                                    },
+                                    "property": Object {
+                                      "name": "finish",
+                                      "type": "Identifier",
+                                    },
+                                    "type": "MemberExpression",
+                                  },
+                                  "type": "CallExpression",
+                                },
+                              },
+                            ],
+                            "type": "ObjectExpression",
+                          },
+                          "type": "ReturnStatement",
+                        },
+                      ],
+                      "directives": Array [],
+                      "type": "BlockStatement",
+                    },
+                    "computed": false,
+                    "generator": false,
+                    "id": null,
+                    "key": Object {
+                      "name": "joinPool",
+                      "type": "Identifier",
+                    },
+                    "kind": "method",
+                    "method": true,
+                    "params": Array [
+                      Object {
+                        "name": "value",
+                        "type": "Identifier",
+                        "typeAnnotation": Object {
+                          "type": "TSTypeAnnotation",
+                          "typeAnnotation": Object {
+                            "type": "TSTypeReference",
+                            "typeName": Object {
+                              "name": "MsgJoinPool",
+                              "type": "Identifier",
+                            },
+                          },
+                        },
+                      },
+                    ],
+                    "type": "ObjectMethod",
+                  },
+                ],
+                "type": "ObjectExpression",
+              },
+              "type": "VariableDeclarator",
+            },
+          ],
+          "kind": "const",
+          "type": "VariableDeclaration",
+        },
+        "exportKind": "value",
+        "source": null,
+        "specifiers": Array [],
+        "type": "ExportNamedDeclaration",
+      },
+    ],
+    "directives": Array [],
+    "interpreter": null,
+    "sourceType": "module",
+    "type": "Program",
+  },
+  "type": "File",
+}
+`;

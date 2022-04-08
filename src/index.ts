@@ -42,7 +42,9 @@ export const strip = (obj) => {
     throw new Error("Unable to copy obj! Its type isn't supported.");
 };
 
-export default (ast, $2 = null, $3 = 2) => {
+export const stringify = (ast, $2 = null, $3 = 2) => {
     const obj = strip(ast);
     return JSON.stringify(obj, $2, $3)
 };
+
+export default stringify;

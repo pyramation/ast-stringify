@@ -1,6 +1,6 @@
 {
   "name": "ast-stringify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ast stringify",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/pyramation/ast-stringify#readme",
@@ -8,10 +8,6 @@
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "files": [
-    "main",
-    "module"
-  ],
   "scripts": {
     "copy": "copyfiles -f LICENSE README.md package.json dist",
     "clean": "rimraf dist/**",

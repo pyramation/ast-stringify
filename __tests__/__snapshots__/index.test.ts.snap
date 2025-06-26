@@ -1,39 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`works 1`] = `
-Object {
-  "comments": Array [],
-  "errors": Array [],
-  "program": Object {
-    "body": Array [
-      Object {
-        "declaration": Object {
-          "declarations": Array [
-            Object {
-              "id": Object {
+{
+  "comments": [],
+  "errors": [],
+  "program": {
+    "body": [
+      {
+        "declaration": {
+          "declarations": [
+            {
+              "id": {
                 "name": "messages",
                 "type": "Identifier",
               },
-              "init": Object {
-                "properties": Array [
-                  Object {
+              "init": {
+                "properties": [
+                  {
                     "async": false,
-                    "body": Object {
-                      "body": Array [
-                        Object {
-                          "argument": Object {
-                            "properties": Array [
-                              Object {
+                    "body": {
+                      "body": [
+                        {
+                          "argument": {
+                            "properties": [
+                              {
                                 "computed": false,
-                                "key": Object {
+                                "key": {
                                   "name": "typeUrl",
                                   "type": "Identifier",
                                 },
                                 "method": false,
                                 "shorthand": false,
                                 "type": "ObjectProperty",
-                                "value": Object {
-                                  "extra": Object {
+                                "value": {
+                                  "extra": {
                                     "raw": "'/osmosis.gamm.v1beta1.MsgJoinPool'",
                                     "rawValue": "/osmosis.gamm.v1beta1.MsgJoinPool",
                                   },
@@ -41,33 +41,33 @@ Object {
                                   "value": "/osmosis.gamm.v1beta1.MsgJoinPool",
                                 },
                               },
-                              Object {
+                              {
                                 "computed": false,
-                                "key": Object {
+                                "key": {
                                   "name": "value",
                                   "type": "Identifier",
                                 },
                                 "method": false,
                                 "shorthand": false,
                                 "type": "ObjectProperty",
-                                "value": Object {
-                                  "arguments": Array [],
-                                  "callee": Object {
+                                "value": {
+                                  "arguments": [],
+                                  "callee": {
                                     "computed": false,
-                                    "object": Object {
-                                      "arguments": Array [
-                                        Object {
+                                    "object": {
+                                      "arguments": [
+                                        {
                                           "name": "value",
                                           "type": "Identifier",
                                         },
                                       ],
-                                      "callee": Object {
+                                      "callee": {
                                         "computed": false,
-                                        "object": Object {
+                                        "object": {
                                           "name": "MsgJoinPool",
                                           "type": "Identifier",
                                         },
-                                        "property": Object {
+                                        "property": {
                                           "name": "encode",
                                           "type": "Identifier",
                                         },
@@ -75,7 +75,7 @@ Object {
                                       },
                                       "type": "CallExpression",
                                     },
-                                    "property": Object {
+                                    "property": {
                                       "name": "finish",
                                       "type": "Identifier",
                                     },
@@ -90,27 +90,27 @@ Object {
                           "type": "ReturnStatement",
                         },
                       ],
-                      "directives": Array [],
+                      "directives": [],
                       "type": "BlockStatement",
                     },
                     "computed": false,
                     "generator": false,
                     "id": null,
-                    "key": Object {
+                    "key": {
                       "name": "joinPool",
                       "type": "Identifier",
                     },
                     "kind": "method",
                     "method": true,
-                    "params": Array [
-                      Object {
+                    "params": [
+                      {
                         "name": "value",
                         "type": "Identifier",
-                        "typeAnnotation": Object {
+                        "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "typeAnnotation": Object {
+                          "typeAnnotation": {
                             "type": "TSTypeReference",
-                            "typeName": Object {
+                            "typeName": {
                               "name": "MsgJoinPool",
                               "type": "Identifier",
                             },
@@ -131,11 +131,11 @@ Object {
         },
         "exportKind": "value",
         "source": null,
-        "specifiers": Array [],
+        "specifiers": [],
         "type": "ExportNamedDeclaration",
       },
     ],
-    "directives": Array [],
+    "directives": [],
     "interpreter": null,
     "sourceType": "module",
     "type": "Program",

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { strip } from '../src';
 const obj = {
   type: 'File',

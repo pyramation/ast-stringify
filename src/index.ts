@@ -1,4 +1,4 @@
-export const strip = (obj) => {
+export const strip = (obj: any): any => {
     var copy;
     // Handle the 3 simple types, and null or undefined
     if (null == obj || 'object' != typeof obj) return obj;
@@ -30,9 +30,11 @@ export const strip = (obj) => {
                     case 'end':
                         break;
                     default:
+                        // @ts-ignore
                         copy[attr] = strip(obj[attr]);
                 }
             } else {
+                // @ts-ignore
                 copy[attr] = strip(obj[attr]);
             }
         }
@@ -42,7 +44,7 @@ export const strip = (obj) => {
     throw new Error("Unable to copy obj! Its type isn't supported.");
 };
 
-export const stringify = (ast, $2 = null, $3 = 2) => {
+export const stringify = (ast: any, $2: Parameters<typeof JSON.stringify>[1] = null, $3 = 2) => {
     const obj = strip(ast);
     return JSON.stringify(obj, $2, $3)
 };
